@@ -204,3 +204,73 @@ html {
 .authors-section-grid-item-divtext-span2{
   font-size: 0.8rem;
 }
+
+/* about.html */
+
+.section-main-about{
+  width: 100%;
+  height: 90vh;
+  margin-top: 130px;
+  text-align: center;
+  padding: 20px;
+}
+
+.about-main-div {
+  background: #fff;
+  color: var(--light-color);
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+.section-main-about-span{
+  font-size: 0.8rem;
+  margin: 5px;
+}
+
+.section-main-about-span2{
+  text-decoration: underline;
+}
+
+.logo-section {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 40px;
+  background: #fff;
+}
+
+.logo-section-hr{
+  width: 30px;
+  background: var(--orange-color);
+}
+
+.logo-section-div {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  border: 2px solid var(--light-color);
+}
+
+.logo-section-div >img {
+  width: 100%;
+}
+
+.hr-sections {
+  width: 100%;
+}
+
+.past-events {
+  width: 100%;
+  height: auto;
+  text-align: center;
+} 
+
+.past-events-img-container {
+  width: 80%;
+  height: 200px;
+  background-color: rgba(219, 140, 103, 0.3);
+  background-image: url(Images/stoic-lyfestyle-2017.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
