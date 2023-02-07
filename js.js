@@ -112,5 +112,4 @@ const authorsData = [
   })
   authorSection.style.height = "600px";
   }
-  
  })
