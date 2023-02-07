@@ -87,6 +87,7 @@ html {
 .section-hr{
   width: 9%;
   background-color: var(--orange-color);
+  border: 1px solid var(--orange-color);
 }
 
 #program-section-container {
@@ -217,7 +218,7 @@ html {
 
 .about-main-div {
   background: #fff;
-  color: var(--light-color);
+  color: var(--dark-color);
   font-size: 1rem;
   margin-bottom: 50px;
 }
@@ -242,6 +243,7 @@ html {
 .logo-section-hr{
   width: 30px;
   background: var(--orange-color);
+  border: 1px solid var(--orange-color);
 }
 
 .logo-section-div {
@@ -255,22 +257,102 @@ html {
   width: 100%;
 }
 
-.hr-sections {
-  width: 100%;
-}
-
 .past-events {
+  border-top: 1px solid var(--light-color);
   width: 100%;
-  height: auto;
+  height: 550px;
   text-align: center;
+  background: #fff;
 } 
 
 .past-events-img-container {
   width: 80%;
   height: 200px;
-  background-color: rgba(219, 140, 103, 0.3);
-  background-image: url(Images/stoic-lyfestyle-2017.jpg);
+  background-image: linear-gradient(rgba(179, 43, 33, 0.6),rgba(179, 43, 33, 0.6)), url(Images/stoic-lifestyle-2017.jpg) ;
   background-repeat: no-repeat;
   background-size: cover;
+  color: #fff;
   margin: 0 auto;
+  font-size: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.past-events-img-container2 {
+  width: 80%;
+  height: 200px;
+  background-image: linear-gradient(rgba(179, 43, 33, 0.6),rgba(179, 43, 33, 0.6)), url(Images/stoic-lifestyle-2020.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  margin: 0 auto;
+  font-size: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.past-events-img-container-span {
+  font-size: 1rem;
+}
+
+.partners {
+  background: var(--dark-color);
+  width: 100%;
+  height: 200px;
+  color: #fff;
+  text-align: center;
+}
+
+.partners-div {
+  width: 95%;
+  height: 150px;
+  margin: 0 auto;
+  
+}
+
+.partners-ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.partners-li > img {
+  width: 100px;
+  height: 25px;
+}
+
+.about-footer {
+  background: #fff;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer-logo {
+  width: 175px;
+  height: 100px;
+  background-image: url(Images/logo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-p {
+  font-size: 0.8rem;
+  color: var(--dark-color);
+  text-align: center;
+  height: 40px;
 }
