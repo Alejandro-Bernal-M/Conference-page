@@ -696,10 +696,6 @@ html {
     margin: 0;
   }
 
-  .footer-2 {
-    background: var(--dark-color) !important;
-  }
-
   .logo-2 {
     background-image: url(Images/logo.png);
   }
@@ -708,6 +704,10 @@ html {
     background-color: var(--light-color);
   }
 
+  .footer-2 {
+    background: var(--dark-color) !important;
+  }
+  
   .footer-p2 {
     color: var(--light-color);
   }
