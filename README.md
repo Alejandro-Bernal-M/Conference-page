@@ -166,6 +166,8 @@ I would like to thank Microverse
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](MIT.md) licensed.
+This project is based on the project of the author [cindy-shin-on-behance](https://www.behance.net/adagio07)
+This is the [original-project](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
