@@ -13,8 +13,8 @@
 <body>
   <header>
     <nav class="nav-bar">
-      <a class="mobile "><img class='mobile' src="Icons/menu.png"></a>
-      <div class="nav-logo"></div>
+      <a class="mobile menu-h "><img class='mobile menu-h' src="Icons/menu.png"></a>
+      <a href="index.html"><div class="nav-logo"></div></a> 
       <ul class="desktop nav-ul">
         <li class="nav-il"><a href="about.html">about</a></li>
         <li class="nav-il"><a href="about.html">Program</a></li>
@@ -24,6 +24,16 @@
       </ul>
     </nav>
   </header>
+  <div id="modal"class="modal mobile">
+    <img class="modal-close" src="Icons/Enabled2.svg">
+    <ul class="ul-modal">
+        <li class="il-modal"><a href="about.html">about</a></li>
+        <li class="il-modal"><a href="about.html">Program</a></li>
+        <li class="il-modal"><a href="about.html">Sponsor</a></li>
+        <li class="il-modal"><a href="about.html">News</a></li>
+        <li class="il-modal"><a href="about.html">Stoic campaing</a></li>
+      </ul>
+  </div>
   <section id="home-section" class="section">
     <span id="home-section-span-title" class="home-section-span">In search of the virtue</span>
     <h1 class="home-section-h1 bold">STOIC LIFESTYLE SUMMER 2023</h1>
@@ -110,15 +120,19 @@
     <h2 class="authors-section-h2">Featured speakers</h2>
     <hr class="section-hr">
     <div id="authors-section-grid">
-      <div class="authors-section-grid-item"></div>
-      <div class="authors-section-grid-item"></div>
-      <div class="authors-section-grid-item"></div>
-      <div class="authors-section-grid-item"></div>
-      <div class="authors-section-grid-item"></div>
-      <div class="authors-section-grid-item"></div>
+      <div class="authors-section-grid-item "></div>
+      <div class="authors-section-grid-item "></div>
+      <div class="authors-section-grid-item  tohide"></div>
+      <div class="authors-section-grid-item  tohide"></div>
+      <div class="authors-section-grid-item  tohide"></div>
+      <div class="authors-section-grid-item  tohide"></div>
     </div>
   </section>
-  <section class="partners">
+  <section class="btn-section">
+    <button class="show-less mobile authors-btn">LESS  <img class="show-img show-less-arrow" src="Icons/arrow.png"></button>
+    <button class="show-more mobile authors-btn hide">MORE  <img class="show-img show-more-arrow" src="Icons/arrow.png"></button>
+  </section>
+  <section class="partners tohide">
     <h2 class="h2-partners">Partners</h2>
     <hr class="section-hr">
     <div class="partners-div">
@@ -130,7 +144,7 @@
         <li class="partners-li"><img src="Images/partners/airbnb.png"></li>
       </ul>
     </div>
-    <footer class="about-footer">
+    <footer class="about-footer tohide">
       <div class="footer-logo"></div> <p class="footer-p"> 2023 stoic lifestyle summer. <br>some rights reserved</p>
     </footer>
   <!-- <a target="_blank" href="https://icons8.com/icon/katV8tV2sgOa/hamburger-menu">hamburger menu</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> 

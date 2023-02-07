@@ -32,11 +32,10 @@ const authorsData = [
   {
     img: 'Images/authors/ryan.jpg',
     name: 'Ryan Holiday',
-    studies: 'Ryan',
+    studies: 'Author, entrepreneur',
     resume: 'American author, modern Stoic, public-relations strategist, owner of the Painted Porch Bookshop and host of the podcast The Daily Stoic'
   },
 ];
- console.log(authorsData)
 
  const authorsGrid = document.querySelectorAll('.authors-section-grid-item');
 
@@ -44,7 +43,8 @@ const authorsData = [
   element.forEach(author => {
     author.innerHTML = ` 
     <div class= 'authors-section-grid-item-imgholder'>
-      <img src='${authorsData[counter].img}'>
+      <img class='authors-chess' src='Images/authors/chess.jpg'>
+      <img class='authors-img' src='${authorsData[counter].img}'>
     </div>
     <div class= 'authors-section-grid-item-divtext'>
       <h3 class= 'authors-section-grid-item-divtext-h3'>${authorsData[counter].name}</h3>
@@ -58,3 +58,47 @@ const authorsData = [
  }
 
  authorsConstructor(authorsGrid, 0);
+
+ const modal = document.getElementById('modal');
+ const closeBtn = document.querySelector('.modal-close');
+ const hamburBtn = document.querySelector('.menu-h');
+ const ilMenu = document.querySelectorAll('.il-modal');
+
+ closeBtn.addEventListener('click',() => {
+  modal.classList.remove('show')
+ } )
+
+ hamburBtn.addEventListener('click', () => {
+  modal.classList.add('show')
+ })
+
+ ilMenu.forEach( il => {
+  il.addEventListener ('click', () =>{
+    modal.classList.remove('show');
+  })
+ })  
+
+ const showLessArrow = document.querySelector('.show-less-arrow');
+ const showMoreArrow = document.querySelector('.show-more-arrow');
+ const showLessBtn = document.querySelector('.show-less');
+ const showMoreBtn= document.querySelector('.show-more');
+ const toHideShow = document.querySelectorAll('.tohide');
+ const authorSection = document.getElementById('authors-section');
+
+ showLessArrow.addEventListener('click',() =>{
+  showMoreBtn.classList.remove('hide');
+  showLessBtn.classList.add('hide');
+  toHideShow.forEach(element => {
+    element.classList.add('hide');
+  })
+  authorSection.style.height = "600px";
+ })
+
+ showMoreArrow.addEventListener('click',() =>{
+  showLessBtn.classList.remove('hide');
+  showMoreBtn.classList.add('hide');
+  toHideShow.forEach(element => {
+    element.classList.remove('hide');
+  })
+  authorSection.style.height = "250vh";
+ })
