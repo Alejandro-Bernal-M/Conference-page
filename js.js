@@ -103,7 +103,7 @@ const authorsData = [
   authorSection.style.height = "250vh";
  })
 
- window.addEventListener('DOMContentLoaded', () =>{
+ window.addEventListener("load", () =>{
   showMoreBtn.classList.remove('hide');
   showLessBtn.classList.add('hide');
   toHideShow.forEach(element => {
@@ -111,4 +111,3 @@ const authorsData = [
   })
   authorSection.style.height = "600px";
  })
- 
