@@ -104,10 +104,13 @@ const authorsData = [
  })
 
  window.addEventListener("load", () =>{
+  if (window.matchMedia("(max-width: 768px)").matches){
   showMoreBtn.classList.remove('hide');
   showLessBtn.classList.add('hide');
   toHideShow.forEach(element => {
     element.classList.add('hide');
   })
   authorSection.style.height = "600px";
+  }
+  
  })
