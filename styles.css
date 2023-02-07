@@ -10,7 +10,8 @@ body {
   width: 100%;
 }
 
-html, body {
+html,
+body {
   max-width: 100% !important;
   overflow-x: hidden !important;
 }
@@ -19,6 +20,7 @@ html {
   padding: 0;
   margin: 0;
 }
+
 :root {
   --dark-color: #272a31;
   --orange-color: #ec5242;
@@ -51,7 +53,7 @@ html {
   width: 100%;
   height: 100%;
   position: fixed;
-  background: linear-gradient(rgba(184, 97, 17, 1),rgba(39,42,49,1));
+  background: linear-gradient(rgba(184, 97, 17, 1), rgba(39, 42, 49, 1));
   color: #fff;
   top: 0;
   display: none;
@@ -61,6 +63,7 @@ html {
 .show {
   display: block;
 }
+
 .modal-close {
   position: relative;
   top: 10px;
@@ -98,11 +101,11 @@ html {
   margin-bottom: 10px;
 }
 
- #home-section-span-title {
+#home-section-span-title {
   font-weight: 400;
   color: var(--orange-color);
   font-size: 20px;
- }
+}
 
 .home-section-h1 {
   margin-top: 0;
@@ -134,11 +137,11 @@ html {
 }
 
 .h2-title {
- text-align: center;
- color: #fff
+  text-align: center;
+  color: #fff;
 }
 
-.section-hr{
+.section-hr {
   width: 9%;
   background-color: var(--orange-color);
   border: 1px solid var(--orange-color);
@@ -147,7 +150,7 @@ html {
 #program-section-container {
   width: 100%;
   height: auto;
-  gap:20px;
+  gap: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -155,7 +158,7 @@ html {
 .program-section-item {
   width: 90%;
   background: rgba(255, 255, 255, 0.3);
-  margin:0 auto;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   padding: 5px;
@@ -199,7 +202,7 @@ html {
   padding-top: 10px;
 }
 
-.authors-section-h2{
+.authors-section-h2 {
   text-align: center;
   color: var(--dark-color);
   margin: 0;
@@ -226,7 +229,7 @@ html {
   margin-bottom: 30px;
 }
 
-.authors-section-grid-item-imgholder{
+.authors-section-grid-item-imgholder {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -237,7 +240,7 @@ html {
   width: 55px;
   height: 58px;
   position: relative;
-  left: 21px;;
+  left: 21px;
   top: -45px;
 }
 
@@ -248,13 +251,13 @@ html {
   left: -25px;
 }
 
-.authors-section-grid-item-divtext{
+.authors-section-grid-item-divtext {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.authors-section-grid-item-divtext-h3{
+.authors-section-grid-item-divtext-h3 {
   font-weight: bold;
   font-size: 1.2rem;
   color: var(--dark-color);
@@ -265,12 +268,12 @@ html {
   font-size: 1rem;
 }
 
-.authors-section-grid-item-divtext-hr{
+.authors-section-grid-item-divtext-hr {
   width: 35px;
   margin: 10px 0;
 }
 
-.authors-section-grid-item-divtext-span2{
+.authors-section-grid-item-divtext-span2 {
   font-size: 0.8rem;
 }
 
@@ -287,9 +290,10 @@ html {
   left: 5px;
 }
 
-.show-less-arrow{
+.show-less-arrow {
   transform: rotate(180deg);
 }
+
 .authors-btn {
   position: relative;
   width: 90%;
@@ -300,9 +304,10 @@ html {
   font-family: 'Lato', sans-serif;
   color: var(--dark-color);
 }
+
 /* about.html */
 
-.section-main-about{
+.section-main-about {
   width: 100%;
   height: 90vh;
   margin-top: 130px;
@@ -320,12 +325,12 @@ html {
   align-items: center;
 }
 
-.section-main-about-span{
+.section-main-about-span {
   font-size: 1rem;
   margin: 5px;
 }
 
-.section-main-about-span2{
+.section-main-about-span2 {
   text-decoration: underline;
 }
 
@@ -337,7 +342,7 @@ html {
   background: #fff;
 }
 
-.logo-section-hr{
+.logo-section-hr {
   width: 30px;
   background: var(--orange-color);
   border: 1px solid var(--orange-color);
@@ -350,7 +355,7 @@ html {
   border: 2px solid var(--light-color);
 }
 
-.logo-section-div >img {
+.logo-section-div > img {
   width: 100%;
 }
 
@@ -360,12 +365,12 @@ html {
   height: 550px;
   text-align: center;
   background: #fff;
-} 
+}
 
 .past-events-img-container {
   width: 80%;
   height: 200px;
-  background-image: linear-gradient(rgba(179, 43, 33, 0.6),rgba(179, 43, 33, 0.6)), url(Images/stoic-lifestyle-2017.jpg) ;
+  background-image: linear-gradient(rgba(179, 43, 33, 0.6), rgba(179, 43, 33, 0.6)), url(Images/stoic-lifestyle-2017.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -381,7 +386,7 @@ html {
 .past-events-img-container2 {
   width: 80%;
   height: 200px;
-  background-image: linear-gradient(rgba(179, 43, 33, 0.6),rgba(179, 43, 33, 0.6)), url(Images/stoic-lifestyle-2020.jpg) ;
+  background-image: linear-gradient(rgba(179, 43, 33, 0.6), rgba(179, 43, 33, 0.6)), url(Images/stoic-lifestyle-2020.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -407,7 +412,7 @@ html {
   padding-top: 10px;
 }
 
-.h2-partners{
+.h2-partners {
   margin: 0;
 }
 
@@ -415,7 +420,6 @@ html {
   width: 95%;
   height: 140px;
   margin: 0 auto;
-  
 }
 
 .partners-ul {
@@ -472,18 +476,17 @@ html {
   display: none;
 }
 
-@media  screen and (min-width:768px) {
-
-  .desktop{
+@media screen and (min-width: 768px) {
+  .desktop {
     position: relative;
   }
 
   .mobile {
     position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0;
-  display: none;
+    top: 0;
+    left: 0;
+    margin: 0;
+    display: none;
   }
 
   .nav-bar {
@@ -495,7 +498,7 @@ html {
     justify-content: space-around;
     z-index: 4;
   }
-  
+
   .nav-logo {
     width: 175px;
     height: 100px;
@@ -515,7 +518,7 @@ html {
 
   .nav-il > a {
     text-decoration: none;
-    color: var(--dark-color)
+    color: var(--dark-color);
   }
 
   .nav-il:last-child {
@@ -525,11 +528,11 @@ html {
     padding: 10px;
   }
 
-  .nav-il:first-child > a{
+  .nav-il:first-child > a {
     color: var(--orange-color);
   }
 
-  .nav-il:last-child > a{
+  .nav-il:last-child > a {
     color: var(--orange-color);
   }
 
@@ -540,7 +543,7 @@ html {
     height: 110vh;
   }
 
-  #home-section-span-title{
+  #home-section-span-title {
     font-size: 4rem;
   }
 
@@ -556,19 +559,19 @@ html {
     border: 3px solid #fff;
   }
 
-  .home-section-span{
+  .home-section-span {
     font-size: 1rem;
   }
 
-  #home-section-span-date{
+  #home-section-span-date {
     font-size: 2.7rem;
   }
 
-  .home-section-span2{
+  .home-section-span2 {
     font-size: 1.5rem;
   }
 
-  #program-section{
+  #program-section {
     height: 550px;
     text-align: center;
   }
@@ -607,14 +610,14 @@ html {
     text-align: center;
   }
 
-  .program-section-a{
+  .program-section-a {
     text-align: center;
     color: #fff;
     text-decoration: underline;
     margin: 30px;
   }
 
-  .section-hr{
+  .section-hr {
     width: 50px;
   }
 
@@ -642,10 +645,10 @@ html {
   .partners {
     height: 300px;
   }
-  
+
   .h2-partners {
     padding-top: 30px;
-    color: var(--light-color)
+    color: var(--light-color);
   }
 
   .partners-div {
@@ -666,7 +669,7 @@ html {
     height: 110vh;
   }
 
-  .h1-about{
+  .h1-about {
     font-size: 4rem;
   }
 
@@ -677,7 +680,7 @@ html {
 
   .logo-section-div {
     margin-top: 50px;
-    width: 325px; 
+    width: 325px;
   }
 
   .past-events-container {
@@ -707,7 +710,7 @@ html {
   .footer-2 {
     background: var(--dark-color) !important;
   }
-  
+
   .footer-p2 {
     color: var(--light-color);
   }
