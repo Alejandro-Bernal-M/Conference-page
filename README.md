@@ -157,7 +157,8 @@ If you like this project give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse
+I would like to thank Microverse.
+I would like to thank [cindy-shin-on-behance](https://www.behance.net/adagio07) because this project is based on his project. This is the [original-project](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
