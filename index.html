@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conference Page - home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+      <a class="mobile menu-h "><img class='mobile menu-h' src="Icons/menu.png"></a>
+      <div class="nav-bar-div1 desktop">
+        <ul class="nav-bar-div1-ul">
+          <li class="nav-bar-div1-li"><img class="img-nav-bar-fb" src="Icons/facebook.png"></li>
+          <li class="nav-bar-div1-li"><img class="img-nav-bar-tw" src="Icons/twitter.png"></li>
+          <li class="nav-bar-div1-li"><a>English</a></li>
+          <li class="nav-bar-div1-li"><a href="index.html">My Page</a></li>
+          <li class="nav-bar-div1-li"><a>Logout</a></li>
+        </ul>
+      </div>
+      <div class="nav-bar-div2">
+        <a href="index.html"><div class="nav-logo"></div></a> 
+        <ul class="desktop nav-ul">
+          <li class="nav-il"><a href="about.html">about</a></li>
+          <li class="nav-il"><a href="about.html">Program</a></li>
+          <li class="nav-il"><a href="about.html">Sponsor</a></li>
+          <li class="nav-il"><a href="about.html">News</a></li>
+          <li class="nav-il"><a href="about.html">Stoic campaing</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div id="modal"class="modal mobile">
+    <img class="modal-close" src="Icons/Enabled2.svg">
+    <ul class="ul-modal">
+        <li class="il-modal"><a href="about.html">about</a></li>
+        <li class="il-modal"><a href="about.html">Program</a></li>
+        <li class="il-modal"><a href="about.html">Sponsor</a></li>
+        <li class="il-modal"><a href="about.html">News</a></li>
+        <li class="il-modal"><a href="about.html">Stoic campaing</a></li>
+      </ul>
+  </div>
+  <section id="home-section" class="section">
+    <span id="home-section-span-title" class="home-section-span">In search of the virtue</span>
+    <h1 class="home-section-h1 bold">STOIC LIFESTYLE SUMMER 2023</h1>
+    <div class="home-section-div">
+      <span class="home-section-span">Discover the meaning of life according to the stoics, knowing about their principles, lifestyle, and precepts, from the hand of their most influential authors, taken place in June, in Pereira / COL.</span>
+    </div>
+    <span id="home-section-span-date" class="home-section-span bold">2023.06.21(WED) ~ 25(SUN)</span>
+    <span class="home-section-span2">@ Conventions center "Expofuturo" Pereira.</span>
+  </section>
+  <section id="program-section">
+    <h2 class="h2-title">Main program</h2>
+    <hr class="section-hr">
+    <div id="program-section-container">
+      <div class="program-section-item">
+        <img 
+        class="program-section-img"
+        src="Icons/speaker.png">
+        <h3 
+        class="program-section-h3">
+          Lecture
+        </h3>
+        <p
+        class="program-section-p">
+          Listen to the speakers from various countries about the messeges of sharing and opening.
+        </p>
+      </div>
+      <div class="program-section-item">
+        <img 
+        class="program-section-img"
+        src="Icons/board.png">
+        <h3 
+        class="program-section-h3">
+          Exhibition
+        </h3>
+        <p
+        class="program-section-p">
+          Aprpreciate life testimonials form other stoics.
+        </p>
+      </div>
+      <div class="program-section-item">
+        <img 
+        class="program-section-img"
+        src="Icons/forum.png">
+        <h3 
+        class="program-section-h3">
+          Forum
+        </h3>
+        <p
+        class="program-section-p">
+          Have the time to share your thoughts and opinions with experts of the topic.
+        </p>
+      </div>
+      <div class="program-section-item">
+        <img 
+        class="program-section-img"
+        src="Icons/workshop.png">
+        <h3 
+        class="program-section-h3">
+          Workshop
+        </h3>
+        <p
+        class="program-section-p">
+          Try to applicate the stoics principles.
+        </p>
+      </div>
+      <div class="program-section-item">
+        <img 
+        class="program-section-img"
+        src="Icons/ignite.png">
+        <h3 
+        class="program-section-h3">
+          Ignite
+        </h3>
+        <p
+        class="program-section-p">
+          Get opportunities to network with other stoics.
+        </p>
+      </div>
+      <button class="program-section-btn btn mobile">Join stoic lifestyle summer 2023</button>
+    </div>
+    <a class="desktop program-section-a">SEE THE WHOLE PROGRAM</a>
+  </section>
+  <section id="authors-section">
+    <h2 class="authors-section-h2">Featured speakers</h2>
+    <hr class="section-hr">
+    <div id="authors-section-grid">
+      <div class="authors-section-grid-item "></div>
+      <div class="authors-section-grid-item "></div>
+      <div class="authors-section-grid-item  tohide"></div>
+      <div class="authors-section-grid-item  tohide"></div>
+      <div class="authors-section-grid-item  tohide"></div>
+      <div class="authors-section-grid-item  tohide"></div>
+    </div>
+  </section>
+  <section class="btn-section">
+    <button class="show-less mobile authors-btn">LESS  <img class="show-img show-less-arrow" src="Icons/arrow.png"></button>
+    <button class="show-more mobile authors-btn hide">MORE  <img class="show-img show-more-arrow" src="Icons/arrow.png"></button>
+  </section>
+  <section class="partners tohide">
+    <h2 class="h2-partners">Partners</h2>
+    <hr class="section-hr">
+    <div class="partners-div">
+      <ul class="partners-ul">
+        <li class="partners-li"><img src="Images/partners/mozilla.png"></li>
+        <li class="partners-li"><img src="Images/partners/google.png"></li>
+        <li class="partners-li"><img src="Images/partners/Naver_TV_logo.svg-removebg-preview.png"></li>
+        <li class="partners-li"><img src="Images/partners/daumkakao.png"></li>
+        <li class="partners-li"><img src="Images/partners/airbnb.png"></li>
+      </ul>
+    </div>
+    <footer class="about-footer tohide">
+      <div class="footer-logo"></div> <p class="footer-p"> 2023 stoic lifestyle summer. <br>some rights reserved</p>
+    </footer>
+    <script src="js.js"></script>
+  </body>
+</html>
