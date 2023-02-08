@@ -166,6 +166,10 @@ html {
   font-size: 0.8rem;
 }
 
+.program-section-item:hover {
+  border: 1px solid #fff;
+}
+
 .program-section-img {
   width: 55px;
   height: auto;
@@ -637,7 +641,7 @@ html {
     height: 250px;
     align-items: center;
     margin: 0;
-    padding: 20px;
+    padding: 15px;
     background: rgba(255, 255, 255, 0.2);
   }
 
@@ -660,7 +664,8 @@ html {
     text-align: center;
     color: #fff;
     text-decoration: underline;
-    margin: 30px;
+    display: block;
+    cursor: pointer;
   }
 
   .section-hr {
