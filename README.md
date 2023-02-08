@@ -157,8 +157,9 @@ If you like this project give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse.
-I would like to thank [cindy-shin-on-behance](https://www.behance.net/adagio07) because this project is based on her project. This is the [original-project](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+-I would like to thank Microverse.
+-I would like to thank [cindy-shin-on-behance](https://www.behance.net/adagio07) because this project is based on her project. This is the [original-project](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+-I would like to thank to [Icon-8.com](https://icons8.com/) for the icons for the [hamburguer-menu](https://icons8.com/icon/katV8tV2sgOa/hamburger-menu), the [Twtter-logo](https://icons8.com/icon/8824/twitter) and the [facebook-logo](https://icons8.com/icon/CUNSVF6G992s/facebook).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
