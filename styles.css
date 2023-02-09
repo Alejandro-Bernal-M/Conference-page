@@ -38,6 +38,7 @@ html {
   position: fixed;
   top: 0;
   margin: 1rem;
+  z-index: 6;
 }
 
 .menu-h {
@@ -229,15 +230,10 @@ html {
   gap: 20px;
 }
 
-.authors-section-grid-item:last-child {
-  margin-bottom: 30px;
-}
-
 .authors-section-grid-item-imgholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 131px;
 }
 
 .authors-chess {
@@ -249,10 +245,13 @@ html {
 }
 
 .authors-img {
-  width: 120px;
-  height: 130px;
+  width: 100px;
+  height: 120px;
+  background-size: cover;
+  background-position-x: center;
   position: relative;
   left: -25px;
+  top: -2px;
 }
 
 .authors-section-grid-item-divtext {
@@ -566,9 +565,14 @@ html {
     padding: 0;
   }
 
+  .nav-il {
+    text-align: center;
+  }
+
   .nav-il > a {
     text-decoration: none;
     color: var(--dark-color);
+    text-align: center;
   }
 
   .nav-il:last-child {
@@ -688,11 +692,6 @@ html {
     column-gap: 30px;
   }
 
-  .authors-img {
-    width: 120px;
-    height: 120px;
-  }
-
   .partners {
     height: 300px;
   }
@@ -732,6 +731,10 @@ html {
   .logo-section-div {
     margin-top: 50px;
     width: 325px;
+  }
+
+  .logo-section-p {
+    display: inline;
   }
 
   .past-events-container {
