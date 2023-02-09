@@ -44,7 +44,7 @@ function authorsConstructor(element, counter) {
     author.innerHTML = ` 
     <div class= 'authors-section-grid-item-imgholder'>
       <img class='authors-chess' src='Images/authors/chess.jpg'>
-      <img class='authors-img' src='${authorsData[counter].img}'>
+      <div class='authors-img' style="background-image: url('${authorsData[counter].img}');"></div>
     </div>
     <div class= 'authors-section-grid-item-divtext'>
       <h3 class= 'authors-section-grid-item-divtext-h3'>${authorsData[counter].name}</h3>
